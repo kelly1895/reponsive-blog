@@ -1,0 +1,319 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#473351;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.clearfix{
+    display: table;
+}
+
+.clearfix:after{
+    content: " ";
+    clear: both;
+}
+body{
+    font-family: 'Courgette', cursive;
+}
+.col-1, .col-2, .col-3{
+    margin-top: 15px;
+    float:left;
+	box-sizing: border-box;
+	padding: 10px ;
+}
+
+ .col-4, .col-5{
+    float:left;
+	box-sizing: border-box;
+	padding: 10px ;
+}
+.col-1{
+    width: 33.33%;
+}
+
+.col-2{
+    width: 33.33%;
+}
+
+.col-3{
+    width: 33.33%;
+}
+
+.col-4{
+    width: 60%;
+}
+
+.col-5{
+    width: 40%;
+}
+
+
+.col-1 img{
+    width: 100%;
+}
+
+.col-2 img{
+    width: 100%;
+}
+
+.col-3 img{
+    width: 100%;
+}
+.col-4 img{
+    width: 100%;
+}
+
+/*---------------------------------------------ENCABEZADO */
+
+.encabezado span{
+    display: none;
+}
+.encabezado{
+    background: black;
+    height: 80px;
+}
+
+.logo{
+    width: 250px;
+    height: 78px;
+}
+
+
+.list-menu{
+   float: right;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.list-menu li
+{
+    display: inline-block;
+    list-style: none;
+}
+    
+
+.list-menu li a
+{
+	display: block;
+	padding: 30px 10px;
+    text-decoration: none;
+    color: #B8B8C3;
+    font-family:sans-serif;
+  
+}
+
+  .icon-menu{
+   color: white;
+    display: none;
+  
+}
+
+/*------------------------------------------------PORTADA */
+.portada{
+    background: url(../image/header-image.jpg)no-repeat;
+    background-size: 100%;
+    height: 380px;
+    width: 100%;
+    display: table;
+}
+.text{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.text h1{
+    color: orange;
+    font-size: 50px;
+}
+.text p{
+    color: white;
+}
+.text p, .text h1 {
+    background: black;
+    text-align: center;
+    margin: 0 180px;
+    padding: 30px 0;
+}
+
+/*-----------------------------------------------IMAGENES */
+
+.box{
+    text-align: center;
+    background: #2E1639;
+    padding-bottom: 10px;
+}
+
+.box p{
+    padding: 10px;
+    color: orange;
+}
+
+.box .txt{
+    padding: 15px;
+    color: white;
+}
+/*------------------------------------------------CUERPO*/
+
+
+.col-4 .box1 .img{
+    width: 100%;
+   
+}
+.col-4 .box1{
+    margin-top: 10px;
+    text-align: center;
+    background: #2E1639;
+}
+
+.col-4 .box1 p{
+    color: orange;
+}
+.col-4 .box1 .txt1{
+    padding: 8px;
+    color:white;
+}
+.col-4 .box1 .txt2{
+  padding: 10px;
+  text-align: left;
+  font-family: sans-serif;
+  color: white;        
+}
+
+.video{
+    background: #2E1639;
+    height: 480px;   
+}
+
+.vimeo{
+    width: 100%;
+    
+}
+
+.video p{
+    color: white;
+    font-family: sans-serif;
+    padding:15px;
+}
+
+
+.box3{
+    margin-top: 10px;
+    background: #2E1639;
+    height: 50px;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.box3 input{
+
+    border-radius: 5px;
+    width: 80%;
+    margin: 8px;
+    padding: 6px 0 ;
+    background: #473351;
+    border-color: #473351;
+}
+
+.box4{
+    height: 550px;
+    background: #2E1639;
+}
+.box4 img{
+    width: 100%;
+}
+
+.box4 .p1{
+    text-align: center;
+    color: orange;
+}
+
+.box4 .p2{
+    text-align: center;
+}
+
+.box4 p{
+    font-family: sans-serif;
+    color: white;
+    padding: 10px;
+}
+
+.box4 i{
+    color: #fff;
+    padding: 10px;
+    border-radius: 100%;
+    margin-left: 16px;
+    background: #2E1639;
+    margin-bottom: 15px;
+}
+/*-----------------------------------------------FOOTER*/
+
+footer{
+    margin-top: 15px;
+    background: #2E1639;
+    padding: 30px;
+    text-align: center;
+}
+
+footer small{
+    
+    color: white;
+    font-family: sans-serif;
+}
+
+span{
+    
+    color:blue;
+    font-family: sans-serif;
+}
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+         width: 90%;
+    }
+    
+    .text h1, .text p{
+        margin: 0 100px;
+    }
+    
+    .col-1, .col-2 , .col-3, .col-4{
+        width: 100%
+    }
+    
+    .col-5 {
+        display: none;
+    }
+    
+    .list-menu li{
+        display: none;
+    }
+    
+    .encabezado i{
+        display: inline-block;
+        float: right;
+       font-size: 40px;
+    }
+    
+    .logo{
+        display: inline-block;
+    }
+}
+
+
+
+
